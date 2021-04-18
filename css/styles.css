@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+  color: #333;
+}
+
+header {
+  background: #f59a00;
+  background-image: url(v);
+  color: #fff;
+  text-align: center;
+  padding: 14px 0 1px;
+  box-shadow: 0px 4px 8px rgb(153, 133, 89);
+}
+
+
+header h1 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 0;
+  text-shadow: 3px 3px 3px rgb(70, 46, 10);
+}
+
+header .katakana {
+  color: rgb(13, 2, 77);
+  font-size: 20px;
+  margin: 0 0 6px 0;
+  text-shadow: none;
+}
+
+
+.tora {
+  color: rgb(13, 2, 77);
+  font-size: 60px;
+  text-shadow: 3px 3px 2px rgb(78, 39, 39);
+  font-family: 'Amatic SC', cursive;
+  padding-right: 10px;
+}
+.tora .red{
+  color: rgb(255, 7, 90);
+  font-size: 60px;
+  text-shadow: 3px 3px 2px rgb(78, 39, 39);
+  font-family: 'Amatic SC', cursive;
+  padding-right: 10px;
+}
+
+
+
+
+
+section {
+  width: 800px;
+  margin: 50px auto 0;
+  
+
+}
+
+.start h1 {
+  color: rgb(56, 5, 5);
+  font-size: 32px;
+  margin-bottom: 0;
+  
+}
+
+.info {
+  font-size: 19px;
+  line-height: 2;
+  margin-top: 17px;
+  text-align: center;
+  display: flex
+}
+
+.text span {
+  font-weight: bold;
+}
+
+.ryouri {
+  width: 340px;
+  border-radius: 20%;
+  margin-top: 17px;
+}
+
+.menu-list {
+  background-color: rgb(255, 241, 218);
+  padding: 10px;
+  margin: 30px 0 30px;
+  box-shadow: 3px 3px 8px  rgb(153, 133, 89);
+}
+
+.menu-list h1 {
+  color: rgb(53, 6, 6);
+  font-size: 22px;
+  font-weight: inherit;
+  text-shadow: 2px 3px  rgba(18, 44, 13, 0.199);
+}
+
+.menu-list p {
+  margin-left: 73%;
+  color: crimson;
+}
+
+.six-menus {
+  color: rgb(53, 6, 6);
+  display: flex;
+  font-size: 20px;
+  font-family: 'Sacramento', cursive;
+  font-weight: bolder;
+}
+
+.right {
+  margin-right: 70px;
+}
+
+.order {
+  position: relative;
+  width: 400px;
+  margin: 2em 0 2em 40px;
+  padding: 8px 15px;
+  background: #fce9e3;
+  border-radius: 30px;
+}
+.order:before{font-family: FontAwesome;
+  content: "\f111";
+  position: absolute;
+  font-size: 15px;
+  left: -40px;
+  bottom: 0;
+  color: #fff0c6;
+}
+.order:after{
+  font-family: FontAwesome;
+  content: "\f111";
+  position: absolute;
+  font-size: 23px;
+  left: -23px;
+  bottom: 0;
+  color: #fff0c6;
+}
+.order .contents {
+  margin: 0; 
+  padding: 0;
+}
+
+footer {
+  background-color: #f59a00;
+  height: 50px;
+  margin-top: 40px;
+}
+
